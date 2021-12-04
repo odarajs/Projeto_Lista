@@ -24,3 +24,17 @@ header{
 
 
 }
+
+.lista tr:nth-child(1){
+    vertical-align: top;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.lista{
+    width: 100%;
+    border-spacing: 0;
+}
+.lista tr td{
+    padding: 5px;
+}
