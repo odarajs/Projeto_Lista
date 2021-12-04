@@ -59,3 +59,32 @@ header{
     display:block;
     text-align: center;
 }
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: orangered solid 1px;
+}
+.botao{
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+@media screen and (max-width:419px){
+    .Formulario input{
+    width: 100%;
+    }
+    .Formulario .lb{
+        width: 100%;
+        text-align: center;
+    }
+    #xp_line{
+        flex-direction: column;
+    }
+    #xp_line div{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
