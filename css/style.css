@@ -8,3 +8,19 @@ header{
     background: linear-gradient(90deg, rgba(58,171,180,1) 0%, rgba(29,253,224,1) 48%, rgba(69,165,252,1) 99%);
     padding: 15px;
 }
+
+.Cadastrar{
+    display: flex;
+    justify-content: center;
+}
+.Cadastrar a{
+    margin-right: 15px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+
+
+}
