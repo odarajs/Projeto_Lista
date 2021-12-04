@@ -3,12 +3,13 @@ body{
 margin: 0px;
 
 }
-
+/* cabeçalho do site*/
 header{
     background: linear-gradient(90deg, rgba(58,171,180,1) 0%, rgba(29,253,224,1) 48%, rgba(69,165,252,1) 99%);
     padding: 15px;
 }
 
+/*Botão do site listagen e cadastra*/
 .Cadastrar{
     display: flex;
     justify-content: center;
@@ -24,7 +25,7 @@ header{
 
 
 }
-
+/*tabelas */
 .lista tr:nth-child(1){
     vertical-align: top;
     background: black;
@@ -37,4 +38,24 @@ header{
 }
 .lista tr td{
     padding: 5px;
+}
+
+/*FORMULARIO*/
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Formulario div{
+    width: 100%;
+}
+.lb{
+    width: 100%;
+    display:block;
+}
+.Formulario{
+    width: 100%;
+    display:block;
+    text-align: center;
 }
