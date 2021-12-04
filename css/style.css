@@ -65,6 +65,14 @@ input{
     border-right: none;
     border-bottom: orangered solid 1px;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+ 
 .botao{
     border-radius: 5px;
     padding: 5px 5px;
