@@ -26,28 +26,27 @@
         <a href="../form/form.html">Cadastrar</a>
 
         
-        <a href="../index/index.html">Listagem</a>
+        <a id="home" href="../index.html">Listagem</a>
         </section>
     <section class="Formulario">
-        <form>
+        <form onsubmit="testaform(event)">
             <div>
             <label class="lb" for="Nome">Nome:</label>
-            <input  type="text" required placeholder="Nome do Usuario" id="Nome">
+            <input  type="text" required placeholder="Nome do Usuario" id="nome" name="nome" value="nome">
         </div>
 
             <div>
             <label class="lb" for="Telefone">Telefone:</label>
-            <input  type="number" required placeholder="Telefone" id="Nome">
-            }
+            <input  type="number" required placeholder="Telefone" id="Tel">
         </div>
              
         <div>
             <label>Experiência Previa</label>
             <br />
-            <input  type="radio" required placeholder="Nome do Usuario" id="xp_line" name="xp_yes">
+            <input  type="radio" value="True" placeholder="Nome do Usuario" id="xp" name="xp_yes">
             <label>Sim</label>
 
-            <input  type="radio" required placeholder="Nome do Usuario" id="xp" name="xp_no">
+            <input  type="radio" value="False" placeholder="Nome do Usuario" id="xp" name="xp_no">
             <label>Não</label>
         </div>
 
@@ -55,7 +54,7 @@
             <input class="botao" type="submit" value="Salvar">
         </div>
         </form>
-
+        <script src="../js/form.js"></script>
     </section>
     </section>
 </body>
